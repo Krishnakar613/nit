@@ -1,0 +1,159 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.main-part{
+	margin-top:1%;
+}
+
+.logo{
+	width:120px;
+	height: auto;
+	margin-left:7%;
+	float: left;
+	margin-right:0px;;
+}
+.headings {
+	float: left;
+	font-family: NIRMALA UI;
+}
+.headings h3,h4{
+	color:rgba(26, 95, 190, 0.74);
+	margin-bottom: 8px;
+	letter-spacing:0.01px;
+}
+.headings h3{
+	font-size:17px;
+	margin-top:15px;
+}
+.headings h4{
+	margin-top:5px;
+	font-size:12px;
+}
+.covid{
+	float: left;
+	width:90px;
+	height:80px;
+	margin-left:100px;
+	margin-top: 20px;
+}
+
+.gandhi{
+	float: left;
+	width:130px;
+	margin-left:110px;
+	margin-top:10px;
+}
+.mhrd{
+	float: left;
+}
+/*--------------------------*/
+/*------NAVIGATION----------*/
+/*--------------------------*/
+
+
+.nav-list ul{
+	width:1430px;
+	list-style: none;
+	display:inline-flex;
+	background-color:rgba(36, 62, 150, 0.79);
+	position: relative;
+	
+}
+.nav-list ul li{
+	margin-left:20px;
+	font-size:13px;
+	padding:8px 0px;
+	color:#fff;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+/*--------------------------*/
+/*------DROPDOWN----------*/
+/*--------------------------*/
+
+.sub-menu-1 ul{
+	display:none;
+	max-width:200px;
+	background-color:#fff;
+}
+.nav-list ul li:hover .sub-menu-1{
+	display:inline-block;
+	position: absolute;
+	margin-top:15px;
+	margin-left:-110px;
+	margin-right:2000px;
+}
+.nav-list ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin:10px;
+}
+.sub-menu-1 ul li a{
+	color:black;
+}
+.nav-list ul li:hover .sub-menu-1 ul li{
+	width:200px;
+	padding:5px;
+	border-bottom:1px solid #000;
+	border-radius: 0;
+	text-align:left;
+}
+.arrow {
+  border: solid white;
+  border-width: 0 1.5px 1.5px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(190deg);
+  -webkit-transform: rotate(45deg);
+}
+/*--------------------------*/
+/*------------MAIN----------*/
+/*--------------------------*/
+
+.container{
+	max-width:1140px;
+    margin:0 auto;
+	
+	
+}
+
+
+/*--------------------------*/
+/*------------MAIN----------*/
+/*--------------------------*/
+h5{
+	font-size:15px;
+	color:#fff;
+	padding:10px;
+	padding-bottom: 25px;
+	border-bottom:1px solid #fff;
+	text-align:center;
+}
+.foot{
+	max-width:1140px;
+	height:280px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.box ul{
+	list-style:none;
+}
+.box ul li{
+	font-size:12px;
+	text-decoration-color: rgba(42, 42, 185, 0.69);
+	color:rgba(42, 42, 185, 0.69);
+	padding:10px;
+}
+.box ul li:first-child{
+	padding-top:55px;
+}
+.left {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+	margin-right:5px;
+}
+
